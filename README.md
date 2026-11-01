@@ -11,10 +11,10 @@
 
 人物與物件是依史料想像出來的，物件背面寫的才是真實歷史。
 
-遊戲網址：<https://daimg49-gif.github.io/sugar-time-talk/>
+遊戲網址：<https://peitt1940-creator.github.io/sugar-time-talk2/>
 
 ## 雲端紀錄與後台
 - 每次打開網頁、每次按選項，都會匿名存一筆到 Firebase（專案 classproject-46bdc，路徑 `games/sugar-time-talk/`）。不記姓名，只記隨機的裝置代號。
 - 學生端只能新增紀錄，讀不到任何人的回答。網路不通時遊戲照常能玩，只是那次不會上傳。
-- 後台：<https://daimg49-gif.github.io/sugar-time-talk/admin.html>（只有老師的 Google 帳號能登入），可看使用次數、立場題統計、完整紀錄，並匯出 CSV。
+- 後台：<https://peitt1940-creator.github.io/sugar-time-talk2/admin.html>（只有老師的 Google 帳號能登入），可看使用次數、立場題統計、完整紀錄，並匯出 CSV。
 - 安全規則在 `firestore.rules`，修改後要貼到 Firebase 主控台「Firestore Database → 規則」發布。
